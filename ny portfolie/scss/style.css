@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3 {
+    font-family: "Poppins", sans-serif ;
+
+}
+.menu img{
+    width: 60px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 50px;
+
+}
+.menu{ 
+    
+    background: rgba(223, 200, 170, 0.733);
+    text-align: right;
+    width: 1250px;
+    height: 80px;
+    position: fixed;
+  
+    margin: 0px 50px;
+    
+   
+
+    
+}
+.menu a{
+    text-decoration: none;
+    margin-left: 20px;
+   justify-content: space-between;
+   line-height: 75px ;
+   font-size: 22px;
+   padding: 20px;
+   font-family: "Poppins 300", sans-serif;
+   color: black;
+}
+.menu a:hover{
+    color: white;
+    
+    
+    
+}
+body{
+    background: linear-gradient(to bottom left, rgba(141, 2, 146, 0.644),rgba(146, 185, 236, 0.658));
+    background-repeat: no-repeat;
+
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.intro img{
+    aspect-ratio: 2/2;
+    max-width: 50%;
+}
+
+.test1{
+    margin-right: 20px;
+    font-family: "poppins 300", sans-serif;
+    background: royalblue; 
+}
+
+.intro h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: rgb(4, 4, 121);  
+}
+
+.intro h2{
+    border-bottom: 1px solid black ;
+    padding-bottom: 5px;
+    font-family:"Poppins", sans-serif ;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.intro p{
+    text-align: center;
+    padding-top: 10px;
+}
+.mig{
+  text-align:left;
+  width: 300px;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.mig a{
+  border: gray, 1ox, solid;
+
+
+}
+.ommig img{
+  width: 300px;
+  height: 400px;
+  position: relative;
+  left: 600px;
+  bottom: 350px;
+
+}
+
+.tabs {
+    border-bottom: 1px solid black;
+    display: flex ;
+    justify-content: center;
+    padding-top: 50px;
+    margin-top: 150px;
+}
+
+.tabs a{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 10px 20px 9px 20px;
+    margin-bottom: -1px;
+    border-radius: 10px 10px 0 0;
+    text-decoration: none;
+    font-family: "poppins 300", sans-serif;
+    color: black;
+ }
+
+.tabs a:hover{
+    background: linear-gradient(to bottom left, rgba(218, 83, 223, 0.644),rgba(97, 113, 131, 0.658));
+
+}
+.photoshop_og_xd {
+  background: linear-gradient(to bottom right, rgba(245, 243, 243, 0.422), rgba(236, 231, 231, 0.333));
+    text-align: center;
+    margin-top: 150px;
+
+
+  }
+  
+  .photoshop_og_xd h1 {
+    box-shadow: 5px 5px 10px #535353, -5px -5px 10px #949494;
+
+  }
+
+  .headline{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    margin: 30px;
+  }
+  
+  .photoshop,
+  .xd {
+    text-align: left;
+    border-bottom: 1px solid black;
+   
+  }
+  
+  .split {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .photoshop img {
+    aspect-ratio: 2/1;
+    max-width: 40%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #202020, -5px -5px 10px #606060;
+  }
+
+  .xd{
+    border-top: 1px solid black;
+    margin-top: 150px;
+  }
+  .xd img {
+    aspect-ratio: 2/1;
+    max-width: 50%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #202020, -5px -5px 10px #606060;
+  }
+
+  
+  .tekst {
+    padding: 50px;
+    border: 1px solid black;
+  }
+  
+.programmering {
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(74, 74, 74, 0.333));
+  text-align: center;
+  margin-top: 150px;
+  color: white;
+
+}
+  
+  .programmering h1 {
+    border-bottom: 1px solid black;
+    box-shadow: 5px 5px 10px #4d4d4d, -5px -5px 10px #aaaaaa;
+  }
+  
+  .programmering img {
+    aspect-ratio: 1/1;
+    max-width: 33%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #4d4d4d, -5px -5px 10px #aaaaaa;
+  }
+  
+  .programmering .tekst {
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  .html,
+  .css{
+    text-align: left;
+    border-bottom: 1px solid white;
+  }
+  
+  .billeder {
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 1/1;
+    max-width: 50%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #202020, -5px -5px 10px #606060;
+  }
+  .projektstyring, .farveteori{
+    background: linear-gradient(to bottom right, rgba(245, 243, 243, 0.422), rgba(236, 231, 231, 0.333));
+    text-align: center;
+    margin-top: 150px;
+  }
+  .eksame{
+    background: linear-gradient(to bottom right, rgba(245, 243, 243, 0.422), rgba(236, 231, 231, 0.333));
+    text-align: center;
+    margin-top: 150px;
+  }
+
+  .blog{
+    background: linear-gradient(to bottom right, rgba(245, 243, 243, 0.422), rgba(236, 231, 231, 0.333));
+  text-align: center;
+  margin-top: 150px;
+ 
+}
+.kontakt{
+   background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.673), rgba(110, 104, 104, 0.333));
+  text-align: center;
+  margin: 50px;
+  color: white;
+  margin-top: 150px;
+}
